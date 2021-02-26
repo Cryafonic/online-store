@@ -1,9 +1,9 @@
 
-##### Table of contents
+#### Table of contents
 
-Desctiption | How to use | 
--|-
-Explaining what the project is about. | Development/Using the product explanation
+Desctiption | How to use | Credits
+-|-|-
+Explaining what the project is about | Development/Using the product explanation | Everyone involved with the project
 
 # The online store.
 
