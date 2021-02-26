@@ -1,0 +1,12 @@
+/*gives the cards a margin and padding*/
+.card {
+    margin: 80px 150px 80px 150px;
+    padding: 250px;
+}
+
+/*positions the image on the page.*/
+.card-img {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}

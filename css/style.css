@@ -1,0 +1,31 @@
+/* All the style in this file is applied  globaly to al of the pages in this website. */
+/* give all the paragaphs padding */
+p {
+    padding-bottom: 10px;
+}
+
+/* Give all the nav bars a font family */
+nav {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* all images and buttons have a padding */
+img,
+button {
+    padding: 10px;
+}
+
+/* all table have a border that is solid and 2px but keeps the color that they inharit. */
+table {
+    border: solid 2px;
+}
+
+/* all of the pages have have back ground color. */
+body {
+    background-color: #f5f5f5;
+}
+
+/* styles of the font to times new roman even heading and table. */
+* {
+    font-family: 'Times New Roman', Times, serif;
+}

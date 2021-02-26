@@ -1,0 +1,45 @@
+/* images on the page that are in the left column will be formatted to display in order the the right column */
+img {
+    margin: 10px 0px 10px 20px;
+    transition: transform .2s;
+}
+
+/* hover that will  scale the image  a bit lager. */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* ordered list to style it to fit the right column a bit better and look a bit cleaner. */
+ol {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 4%;
+    font-style: italic;
+}
+
+/* heading is style to look and feel better on the page. */
+h1 {
+    padding: 10px;
+    font-size: medium;
+    text-align: center;
+    font-style: oblique;
+}
+
+/* positions the quick add cart button*/
+button.quickAddCart {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+/*positions the price of the product.*/
+strong.price {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+/*gives the ul a margin*/
+ul {
+    margin-bottom: 30px;
+}

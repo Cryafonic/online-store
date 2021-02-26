@@ -1,0 +1,31 @@
+/* The image that is positioned on top of the background to give it more detial. */
+.onTopBackground {
+    position: absolute;
+    top: 270px;
+    left: 1000px;
+}
+
+/* The paragraph that is postioned on top of the background. */
+.paragraphOnBackground {
+    position: absolute;
+    top: 240px;
+    left: 380px;
+    color: lightgray;
+}
+
+/* Heading that is postioned over the background. */
+.heading {
+    position: absolute;
+    top: 170px;
+    left: 360px;
+    color: skyblue;
+}
+
+/* All of the style for the boxs on the index page to give the page a bit more color. */
+.box {
+    clear: left;
+    margin: 25px;
+    filter: brightness(0.9);
+    border-radius: 5px;
+    font-size: large;
+}

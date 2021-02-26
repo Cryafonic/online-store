@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- boiler palte added. -->
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Online store</title>
+    <!-- bootstrap 5.0 used. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"/>
+    <link href="../css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/shippingStyle.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div class="container-fuild">
+    <!-- styling for the navbar to style all of the nav-links next to each other. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- bootstap used tot make the navbar more responsive -->
+        <div class="container-fluid">
+            <!-- link to the home page or "index.html" page -->
+            <a class="navbar-brand" href="../index.html">The Online store</a>
+            <!-- added a button for mobile design. -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar is here optimized to change when screen is resized. -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- the unorderlist is here styled with bootstap to fit the screen. -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <!-- Link to the shipping page. -->
+                        <a class="nav-link active" style aria-current="page" href="shippingDetails.html">Shipping
+                            detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- link to the catalogue page. -->
+                        <a class="nav-link active" aria-current="page" href="catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Link to the about us page -->
+                        <a class="nav-link active" aria-current="page" href="aboutUs.html">About us</a>
+                    </li>
+                </ul>
+                <!-- form to simulate the search in side the of the web page. -->
+                <form class="d-flex">
+                    <input class="input-mysize form-control me-2" style="width: 26rem" type="search"
+                           placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+                <form method="get" action="../html/shoppingCart.html">
+                    <button class="btn btn-outline-danger bi bi-cart4 m-1 shoppingCart"></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- used to format the rest of the page so that the content can be center on the page. -->
+<div class="container">
+    <h1>Delivery Details</h1>
+    <!-- image here is used to discribe the shipping and on what page you are. -->
+    <img class="shipItImage" src="https://assets.entrepreneur.com/content/3x2/2000/20161013103704-Logistics.jpeg"
+         alt="shipping image"/>
+    <!-- here is a few paragraphs dicribing how the shipping works and the tearm for using it. -->
+    <p>
+        Irrespective of the delivery method you choose, we always take
+        responsibility up to the point of delivery, i.e. if your parcel goes
+        missing or the contents are damaged, we will replace the affected items
+        at no cost to you.
+    </p>
+
+    <p>
+        Please note that the time taken to ship an item is listed on each
+        product's detail page. For example, "Usually shipped within 2-5 working
+        days" means that it will take us 2-5 working days to get the product
+        from our supplier. The delivery times listed below apply once we ship
+        the item to you.<br/>
+
+        We currently offer four methods of delivery.
+    </p>
+    <h3>Detail</h3>
+    <p>
+        <strong>Courier.</strong> These are door-to-door services. The delivery
+        address must be a physical address, and cannot be a post office box.
+        Someone will need to be available at the address to receive the
+        delivery. Deliveries are made during business hours from Monday to
+        Friday. We currently offer three courier options.
+    </p>
+    <ul>
+        <li>
+            <em>Priority courier.</em> In main centres, this will reach you the
+            next business day after we ship your order.
+        </li>
+        <li>
+            <em>Standard courier.</em> In main centres, this will reach you within
+            1- 2 business days after we ship your order.
+        </li>
+        <li>
+            <em>Economy courier.</em> In main centres, this will reach you within
+            1 - 3 business days after we ship your order.
+        </li>
+    </ul>
+    <!-- radio button to demonstarte the use of the shipping selection when on the check out page. -->
+    <h3>Select shipping</h3>
+    <label class="container">Priority courier.
+        <input type="radio" checked="checked" name="radio"/>
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Standard courier.
+        <input type="radio" name="radio"/>
+        <span class="checkmark"></span>
+    </label>
+    <label class="container">Economy courier.
+        <input type="radio" name="radio"/>
+        <span class="checkmark"></span>
+    </label>
+    <p>
+        <!-- emphasizes the importanse of the paragraph to understand that is only an example and not the actual checking for shipping on this page. -->
+        <em>Example of how the checkout selection for shipping will look
+            like.</em>
+    </p>
+    <!-- a few more paragraphs to explain the shippingn in detial. -->
+    <p>
+        Main centres include properties within a 50km radius of the major cities
+        in South Africa. If you are not in a main centre, it may take a few days
+        longer. We do not deliver by courier to plots, farms, mines, military
+        bases, major chain stores, power stations, game reserves and lodges,
+        airports or harbours, and should your delivery address fall into one of
+        these categories you will be liable for the extra costs incurred in
+        delivering or returning the parcel.
+    </p>
+
+    <p>
+        <strong>Pargo- Click and Collect.</strong> Powered by Pargo, The online
+        store can now deliver to 2600 pick up points nationwide. Pargo offers
+        the option to collect your parcels at the closest pick up point to you.
+        Once your order has been shipped, your parcel should be ready for
+        collection within 2-5 business days, however, Pargo will notify you via
+        sms and/or email when it is at your chosen Pargo pick up point. Please
+        note, currently we only offer this option for parcels that are under
+        7kgs. To track or for more information on pargo click
+        <a href="https://pargo.co.za/">here.</a>
+    </p>
+    <p>
+        <strong>Overnight post office counter.</strong> This is a next business
+        day service where the parcel will be ready for collection from your
+        local post office counter one business day after we ship it. If you are
+        not in a main centre, it may take 1-2 days. We offer delivery of parcels
+        up to 2kg for R45, or for free if the order value is over R400. Delivery
+        on orders over 2kg is calculated based on mass, value, and number of
+        items in the order. To track shipping or for more information about your
+        local Post Office click
+        <a href="https://www.postoffice.co.za/">here.</a>
+    </p>
+    <p>
+        <strong>Collection.</strong> You can also collect your parcel from our
+        office at in the Westlake Business Park. For directions to our office
+        Read more... Our office hours are Monday to Friday 8:30am - 5pm, and
+        we're open for collections on Saturday from 8:30am to 1pm. We are not
+        open on Sundays or public holidays. We don't charge for delivery if you
+        choose to collect.
+    </p>
+    <!-- an important sentance to the user thus it is emphasized. -->
+    <em>Free delivery options are subject to change.</em>
+</div>
+</body>
+
+</html>

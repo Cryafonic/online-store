@@ -1,0 +1,75 @@
+/* Image is set to a cetain size. */
+img {
+    height: 750px;
+    width: 100%;
+}
+
+/* The heading 1 is postioned and colored to gray on the about page. */
+h1 {
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    color: gray;
+}
+
+/* The paragraph that is set over the background with a color and font size asinged to it. */
+.bioPage {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    color: lightgray;
+    font-size: x-large;
+}
+
+/* .extra is for al the elements that need a different top or font size set to it. */
+.extra {
+    top: 430px;
+    font-size: larger;
+}
+
+/* The main image or background image that is set to be spesific size and postion to fit the page with a filter to fit the theme of the page. */
+.detailedImage {
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    width: 700px;
+    height: 450px;
+    filter: saturate(0.2);
+}
+
+/* all the images on the page with this class is diplayed to fit the paragraghs that will follow the images. */
+.smallImage {
+    margin: 50px 20px 0px 230px;
+    flex-direction: row;
+    width: 300px;
+    height: 250px;
+    border: dashed 2px #dcdcdc;
+    transition: transform .2s;
+}
+
+/* the the small images are all set with a scale to show when hovered. */
+.smallImage:hover {
+    transform: scale(1.1);
+}
+
+/* All of the .smallImageDisruptions classes below are all set so that they match the .smallImage classes perfectly. */
+.smallImageDiscruption1 {
+    position: absolute;
+    left: 250px;
+}
+
+.smallImageDiscruption2 {
+    position: absolute;
+    left: 800px;
+}
+
+.smallImageDiscruption3 {
+    position: absolute;
+    left: 1360px;
+}
+
+.smallImageDiscruption4 {
+    position: absolute;
+    left: 250px;
+    padding-bottom: 20px;
+}

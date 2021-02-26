@@ -1,0 +1,7 @@
+
+/*styles the button to match the rest of the page.*/
+button.deleteButton {
+    margin: 5px;
+    position: relative;
+    left: 50px;
+}

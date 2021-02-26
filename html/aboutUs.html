@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="../css/aboutStyle.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div class="container-fuild">
+    <!-- styling for the navbar to style all of the nav-links next to each other. -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- bootstap used tot make the navbar more responsive -->
+        <div class="container-fluid">
+            <!-- link to the home page or "index.html" page -->
+            <a class="navbar-brand" href="../index.html">The Online store</a>
+            <!-- added a button for mobile design. -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- navbar is here optimized to change when screen is resized. -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- the unorderlist is here styled with bootstap to fit the screen. -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <!-- Link to the shipping page. -->
+                        <a class="nav-link active" style aria-current="page" href="shippingDetails.html">Shipping
+                            detail</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- link to the catalogue page. -->
+                        <a class="nav-link active" aria-current="page" href="catalogue.html">Catalogue</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- Link to the about us page -->
+                        <a class="nav-link active" aria-current="page" href="aboutUs.html">About us</a>
+                    </li>
+                </ul>
+                <!-- form to simulate the search in side the of the web page. -->
+                <form class="d-flex">
+                    <input class="input-mysize form-control me-2" style="width: 26rem" type="search"
+                           placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">
+                        Search
+                    </button>
+                </form>
+                <form method="get" action="../html/shoppingCart.html">
+                    <button class="btn btn-outline-danger bi bi-cart4 m-1 shoppingCart"></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+<!-- heading of the about us page. -->
+<h1>Getting to know us.</h1>
+<!-- paragraph with styling to position it in the correct place. -->
+<p class="bioPage">Who are we? what make us tick? Welcome to the world of The Online Store. Where extraordinary people
+    come <br>toghether to do extraordinary things, bringing world-class online shopping to the people who love tech.</p>
+<!-- image that shows the detial image. -->
+<img class="detailedImage" src="https://media.takealot.com/covers_blog/Getting-to-know-us-image.png?_=1611065507"
+     alt="detialed Image">
+<!-- paragraph with extra content. -->
+<p class="bioPage extra">The Online store’s mission is to be the most customer-centric online shopping
+    destination <br>in Africa, and has built a foundation on the simple concept that the customer comes first.
+</p>
+<img src="https://papers.co/wallpaper/papers.co-vm09-poly-blue-purple-abstract-pattern-29-wallpaper.jpg"
+     alt="small image">
+<!-- All the following images are styles to fit in certain postions to match the paragraphs asigned to them. -->
+<img class="smallImage" src="https://media.takealot.com/covers_blog/our-journey.jpg?_=1611065507" alt="small image">
+<p class="smallImageDiscruption1">Follow our exciting journey from humble <br>beginnings to where we are today.
+</p>
+<img class="smallImage"
+     src="https://lh3.googleusercontent.com/wjkYAACOO38pxC4i81TsAg8fq8ztACI-UddvlzkhA3qotPErQlX1XjN_RuaxAXU5ToU8p7zfqC7V4_FES5xnKbvDk1coeJ8Z_lxz_g=s700"
+     alt="small image">
+<p class="smallImageDiscruption2">The Online store family lives and breathes a set of core values <br>that
+    represent how we think and how we operate on a daily basis….</p>
+<img class="smallImage" src="https://media.takealot.com/covers_blog/our-charity1.jpg?_=1611065507"
+     alt="small image">
+<p class="smallImageDiscruption3">Together with our shoppers, we strive to make a <br>difference in the lives of
+    those in need by supporting <br>Beautiful Gate South Africa…</p>
+<img class="smallImage" src="https://media.takealot.com/covers_blog/company-new-3.jpg?_=1611065507"
+     alt="small image">
+<p class="smallImageDiscruption4">Keep up to date on the latest happenings & <br>developments in the world of
+    The online store…</p>
+<hr style="margin-top: 80px;">
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <h3 style="padding-left: 55px; text-decoration: underline;">Reviews</h3>
+    </div>
+    <!-- added a review to let it seem like the services is getting reviewed by customers. -->
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <h3 style="text-align: center;">Danae T</h3>
+        </div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8 center-content">
+            <p>Love!!! I am able to find almost ANYTHING & EVERYTHING! Such a wide variety to choose from.
+                Especially with regards to hair products. Way more variety than what you find in a beauty store.
+                (Dont want to mention names).</p>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+</div>
+</body>
+
+</html>

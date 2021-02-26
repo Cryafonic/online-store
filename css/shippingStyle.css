@@ -1,0 +1,40 @@
+/* the image on the page has been format to float and set to a certain size on the page. */
+.shipItImage {
+    float: right;
+    width: 620px;
+    height: 400px;
+    filter: saturate(0.2);
+}
+
+/* the heading 3 on the page has a font size and allos a color to show that it is the heading. */
+h3 {
+    font-size: medium;
+    color: skyblue;
+}
+
+/* the heading 1 on the page has a font size and a color to show how import is on the page. */
+h1 {
+    font-size: x-large;
+    color: skyblue;
+}
+
+/* all the link on the shiping page have a color and removed decoration to text. */
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+/* when hovering over the links on the page they will display in a different color. */
+a:hover {
+    color: darkgrey;
+}
+
+/* All of the unordered lists on the shipping page have a certain font that describes the weight or "important" to the page or sentence. */
+ul li {
+    font-weight: lighter;
+}
+
+/* the emphasixe the importants of the font. */
+em {
+    font-weight: normal;
+}
