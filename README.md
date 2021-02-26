@@ -3,7 +3,7 @@
 
 Desctiption | How to use | Credits
 -|-|-
-Explaining what the project is about (Begining) | Development/Using the product explanation (middle) | Everyone involved with the project (End)
+Explaining what the project is about (Begining) | Development/Using the product explanation (Middle) | Everyone involved with the project (End)
 
 # The online store.
 
